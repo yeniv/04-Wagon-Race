@@ -1,0 +1,31 @@
+/* Your board style here */
+.racer_table td {
+  height: 60px;
+  width: 60px;
+  border: solid;
+}
+.racer_table td.active {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.finish_line {
+  background-image: url("images/burger.jpg");
+  background-size: cover;
+}
+/*#player1_race td.active {
+  /*background-image: url("images/trump2.png");*/
+/*}*/
+/*#player2_race td.active {*/
+  /*background-image: url("images/trump.png");*/
+/*}*/
+img {
+  width: 55px;
+  height: 55px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
